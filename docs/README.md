@@ -3,7 +3,7 @@ home: true
 title: 首页
 heroImage: /assets/images/cover.jpg
 actions:
-  - text: 阅读章节
+  - text: 阅读正文
     link: /chapters/ch1_TheCLRSExecutionMode.md
     type: primary
   - text: 文章前言
