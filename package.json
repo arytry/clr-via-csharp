@@ -1,0 +1,20 @@
+{
+  "name": "clr-via-csharp",
+  "version": "1.0.0",
+  "description": "CLR via C#",
+  "main": "index.js",
+  "repository": "https://github.com/arytry/clr-via-csharp.git",
+  "author": "Link.jr",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.9",
+    "@vuepress/theme-default": "^2.0.0-rc.23",
+    "vuepress": "^2.0.0-rc.9"
+  },
+  "scripts": {
+    "docs:build": "vuepress build docs --clean-cache --clean-temp",
+    "docs:clean": "rimraf docs/.vuepress/.temp docs/.vuepress/.cache docs/.vuepress/dist",
+    "docs:dev": "vuepress dev docs --clean-cache --clean-temp"
+  }
+}
