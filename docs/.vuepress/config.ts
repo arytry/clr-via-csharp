@@ -3,7 +3,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 
 export default defineUserConfig({
-    base: '/clr-via-csharp/',
+    base: '/',
     lang: 'zh-CN',
     title: 'CLR via C#',
     description: 'CLR via C# 第四版',
@@ -20,6 +20,7 @@ export default defineUserConfig({
         logo: '/assets/images/cover.jpg',
 
         repo: 'arytry/clr-via-csharp',
+        docsDir: 'docs',
         editLink: true,    // 展示 repo 的编辑路径
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdated: true,
