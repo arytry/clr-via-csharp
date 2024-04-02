@@ -3,7 +3,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 
 export default defineUserConfig({
-    base: '/',
+    base: '/clr-via-csharp/',
     lang: 'zh-CN',
     title: 'CLR via C#',
     description: 'CLR via C# 第四版',
