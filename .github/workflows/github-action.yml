@@ -46,7 +46,7 @@ jobs:
       # 自定义域名
       - name: Custom CNAME
         env:
-          CNAME: books.arytry.com/clr-via-csharp
+          CNAME: books.arytry.com
         run:
           cd docs/.vuepress/dist && echo $CNAME > CNAME
 
